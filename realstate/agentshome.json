@@ -1,0 +1,45 @@
+{
+	"agents": [
+		{
+			"id": "1",
+			"image" :"/./Agentsimages/agentimage  (6).jpg",
+			"name": "John Smith",
+			"contact": {
+				"email": "john.smith@example.com",
+				"phone": "+1 123-456-7890"
+			},
+			"properties": ["1", "3", "5"]
+		},
+		{
+			"id": "2",
+			"image" :"/./Agentsimages/agentimage  (5).jpg",
+			"name": "Emily Johnson",
+			"contact": {
+				"email": "emily.johnson@example.com",
+				"phone": "+1 987-654-3210"
+			},
+			"properties": ["2", "4"]
+		},
+		{
+			"id": "3",
+			"image" :"/./Agentsimages/agentimage  (12).jpg",
+			"name": "Michael Brown",
+			"contact": {
+				"email": "michael.brown@example.com",
+				"phone": "+1 555-123-4567"
+			},
+			"properties": ["6", "7"]
+		},
+		{
+			"id": "4",
+			"image" :"/./Agentsimages/agentimage  (4).jpg",
+			"name": "Sarah Davis",
+			"contact": {
+				"email": "sarah.davis@example.com",
+				"phone": "+1 111-222-3333"
+			},
+			"properties": ["8", "9"]
+		}
+		
+	]
+}

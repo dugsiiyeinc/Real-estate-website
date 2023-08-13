@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Daniel Anderson",
+		"title": "10 Essential Tips for First-Time Homebuyers",
+		"coverPhoto": "/./images/realestate-image  (41).jpg",
+		"date": "2023-07-15"
+	},
+	{
+		"name": "Olivia Martinez",
+		"title": "How to Stage Your Home for a Quick Sale",
+		"coverPhoto":"/./images/realestate-image  (40).jpg",
+		"date": "2023-07-18"
+	},
+	{
+		"name": "James Wilson",
+		"title": "The Pros and Cons of Buying a Fixer-Upper",
+		"coverPhoto": "/./images/realestate-image  (42).jpg",
+		"date": "2023-07-22"
+	}
+	
+]

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Real estate</title>
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+     <link rel="stylesheet" href="form.css">
+     <link rel="stylesheet" href="./responsive/Mobile.css" media="screen and (max-width:600px)">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+     
+
+     <div class="Container">
+          <div class="form-container">
+               <div class="Create-account">
+              <h3 class="creatacc">
+                   Create an account
+              </h3>
+         </div>
+    <form role="form" >
+        
+    <div class="single-input">
+         <input class="inp"  type="text" placeholder="Name" id="Name" required>
+    </div>
+    <div class="single-input">
+         <input  class="inp" type="email" placeholder="Email" id="Email" required>
+    </div>
+    <div class="single-input">
+         <input  class="pass inp" type="password" placeholder="password" id="pass" required>
+    </div>
+    <div class="single-input">
+         <input class="cPass inp" type="password" placeholder="Confirm password" id="Con_Pass" required>
+    </div>
+    <div class="submit-button">
+         <Button class="bttt" id="Submit" onclick="saveData()">Submit</Button>
+    </div>         
+    <div class="have-account">
+         <a href="login.html">I have an account please Login</a>
+    </div>
+</form>
+  </div>
+
+          </div>
+     </div>
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="singup.js"></script>
+  
+  
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Styles for light mode */
+    body {
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    /* Styles for dark mode */
+    .dark-mode {
+      background-color: #333333;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Dark Mode Example</h1>
+  <label for="dark-mode-toggle">Dark Mode</label>
+  <input type="checkbox" id="dark-mode-toggle">
+
+  <script>
+    // Check if user has a preference for dark mode in localStorage
+    const isDarkMode = localStorage.getItem('darkMode');
+
+    // Apply dark mode styles if user has a preference
+    if (isDarkMode === 'true') {
+      document.body.classList.add('dark-mode');
+      document.getElementById('dark-mode-toggle').checked = true;
+    }
+
+    // Toggle dark mode on user interaction
+    document.getElementById('dark-mode-toggle').addEventListener('change', function() {
+      if (this.checked) {
+        document.body.classList.add('dark-mode');
+        localStorage.setItem('darkMode', 'true');
+      } else {
+        document.body.classList.remove('dark-mode');
+        localStorage.setItem('darkMode', 'false');
+      }
+    });
+  </script>
+</body>
+</html>

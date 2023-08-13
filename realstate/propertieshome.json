@@ -1,0 +1,136 @@
+{
+	"properties": [
+		{
+			"id": "1",
+			"title": "Spacious Condo with Ocean View",
+			"image":"/./images/realestate-image  (50).jpg",
+			"description": "Beautiful condo with breathtaking ocean view. Features modern amenities and a large balcony.",
+			"price": 250000,
+			"bedrooms": 5,
+			"bathrooms": 2,
+			"squareFootage": 1200,
+			"location": {
+				"city": "Los Angeles",
+				"state": "California",
+				"country": "United States"
+			},
+			"images": [
+				"https://example.com/images/property1/image1.jpg",
+				"https://example.com/images/property1/image2.jpg",
+				"https://example.com/images/property1/image3.jpg"
+			],
+			"availability": "available"
+		},
+		{
+			"id": "2",
+			"title": "Charming Family Home",
+			"image":"/./images/realestate-image  (46).jpg",
+
+			"description": "Lovely family home with a spacious backyard and plenty of natural light. Perfect for families with kids.",
+			"price": 350000,
+			"bedrooms": 3,
+			"bathrooms": 2,
+			"squareFootage": 1800,
+			"location": {
+				"city": "San Francisco",
+				"state": "California",
+				"country": "United States"
+			},
+			"images": [
+				"https://example.com/images/property2/image1.jpg",
+				"https://example.com/images/property2/image2.jpg",
+				"https://example.com/images/property2/image3.jpg"
+			],
+			"availability": "available"
+		},
+		{
+			"id": "3",
+			"title": "Luxury Villa with Pool",
+			"image":"/./images/realestate-image  (44).jpg",
+
+			"description": "Exquisite villa with a private pool and stunning garden. Ideal for those seeking a luxurious lifestyle.",
+			"price": 850000,
+			"bedrooms": 4,
+			"bathrooms": 5,
+			"squareFootage": 4000,
+			"location": {
+				"city": "Miami",
+				"state": "Florida",
+				"country": "United States"
+			},
+			"images": [
+				"https://example.com/images/property3/image1.jpg",
+				"https://example.com/images/property3/image2.jpg",
+				"https://example.com/images/property3/image3.jpg"
+			],
+			"availability": "available"
+		},
+		{
+			"id": "4",
+			"title": "Cozy Cottage in the Woods",
+			"image":"/./images/realestate-image  (6).jpg",
+
+			"description": "A charming cottage surrounded by nature. Perfect for a peaceful retreat or a writer's getaway.",
+			"price": 180000,
+			"bedrooms": 1,
+			"bathrooms": 1,
+			"squareFootage": 800,
+			"location": {
+				"city": "Asheville",
+				"state": "North Carolina",
+				"country": "United States"
+			},
+			"images": [
+				"https://example.com/images/property4/image1.jpg",
+				"https://example.com/images/property4/image2.jpg",
+				"https://example.com/images/property4/image3.jpg"
+			],
+			"availability": "available"
+		},
+		{
+			"id": "5",
+			"title": "Modern Loft in the City",
+			"image":"/./images/realestate-image  (7).jpg",
+
+			"description": "Stylish loft with an open floor plan and contemporary design. Located in the heart of downtown.",
+			"price": 450000,
+			"bedrooms": 1,
+			"bathrooms": 1,
+			"squareFootage": 1000,
+			"location": {
+				"city": "New York",
+				"state": "New York",
+				"country": "United States"
+			},
+			"images": [
+				"https://example.com/images/property5/image1.jpg",
+				"https://example.com/images/property5/image2.jpg",
+				"https://example.com/images/property5/image3.jpg"
+			],
+			"availability": "available"
+		},
+		{
+			"id": "6",
+			"title": "Spacious Family House",
+			"image":"/./images/realestate-image  (8).jpg",
+
+			"description": "A comfortable family house with a large backyard and a cozy fireplace. Ideal for a growing family.",
+			"price": 320000,
+			"bedrooms": 4,
+			"bathrooms": 3,
+			"squareFootage": 2000,
+			"location": {
+				"city": "Austin",
+				"state": "Texas",
+				"country": "United States"
+			},
+			"images": [
+				"https://example.com/images/property6/image1.jpg",
+				"https://example.com/images/property6/image2.jpg",
+				"https://example.com/images/property6/image3.jpg"
+			],
+			"availability": "available"
+		}
+		
+	]
+}
